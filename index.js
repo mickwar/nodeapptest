@@ -1,8 +1,18 @@
-const Person = require('./person.js');
+// const Person = require('./person.js');
+// 
+// const person1 = new Person('John Doe', 30);
+// 
+// console.log(person1);
+// console.log(person1.name);
+// 
+// person1.greeting();
 
-const person1 = new Person('John Doe', 30);
+const Logger = require('./logger.js');
 
-console.log(person1);
-console.log(person1.name);
+const logger = new Logger();
 
-person1.greeting();
+logger.on('mESSage', (data) => console.log('Called Listener:', data));
+
+logger.log('Hello World');
+logger.log('ABC');
+logger.log('123 Test');
