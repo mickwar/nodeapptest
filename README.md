@@ -30,3 +30,8 @@ Install all non dev packages
 ```bash
 npm install --production
 ```
+
+Run the app
+```bash
+node index.js   # or just `node index`
+```
