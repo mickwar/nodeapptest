@@ -16,5 +16,7 @@
     "url": "https://github.com/mickwar/nodeapptest/issues"
   },
   "homepage": "https://github.com/mickwar/nodeapptest#readme",
-  "dependencies": {}
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
 }
