@@ -1,0 +1,20 @@
+{
+  "name": "nodeapptest",
+  "version": "1.0.0",
+  "description": "just a test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickwar/nodeapptest.git"
+  },
+  "author": "mw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mickwar/nodeapptest/issues"
+  },
+  "homepage": "https://github.com/mickwar/nodeapptest#readme",
+  "dependencies": {}
+}
