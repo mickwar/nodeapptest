@@ -1,5 +1,9 @@
+// Documentation
+// https://nodejs.org/api/path.html
+
 // `path` is a core module included with node
 const path = require('path');
+
 
 // Base file name
 console.log(path.basename(__filename));
