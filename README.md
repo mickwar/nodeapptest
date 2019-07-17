@@ -35,3 +35,10 @@ Run the app
 ```bash
 node index.js   # or just `node index`
 ```
+
+
+To use `nodemon`:
+```bash
+npm run dev
+```
+Notice the `scripts` in `package.json'. `nodemon` let's us keep editing `index.js` without having to restart the server on each change.
